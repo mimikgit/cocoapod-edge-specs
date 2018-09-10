@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "edgesdk_ios_framework_dynamic.framework"
   s.vendored_libraries = "edgesdk_ios_framework_dynamic.framework/libedge.dylib"
+  s.exclude_files = "libedge.dylib"
 
   s.platform = 'ios', '11.0'
 end
