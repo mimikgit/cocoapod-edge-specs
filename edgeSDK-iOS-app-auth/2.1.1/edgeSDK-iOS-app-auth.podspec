@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
   s.dependency 'edgeSDK-iOS', '2.1.1'
 
   s.platform = 'ios', '11.0'
-  # s.swift_version = '5.1'
+  s.swift_version = '5.1'
 end
