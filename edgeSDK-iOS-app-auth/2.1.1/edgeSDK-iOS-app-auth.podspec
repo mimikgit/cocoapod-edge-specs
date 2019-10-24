@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "edgeSDK_iOS_app_auth.framework"
 
   s.dependency 'JWTDecode', '~> 2.3.1'
+  s.dependency 'AppAuth', '~> 1.2.0'
   s.dependency 'Starscream', '~> 3.1.1'
   s.dependency 'SwiftyJSON', '~> 5.0.0'
   s.dependency 'edgeSDK-iOS', '2.1.1'
