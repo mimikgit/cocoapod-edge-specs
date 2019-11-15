@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "edgeSDK_iOS.framework", "edge.framework"
 
-  s.platform = 'ios', '11.0'
-  s.swift_version = '5.1'
+  s.platform = 'ios', '12.0'
+  s.swift_version = '5.0'
 end
