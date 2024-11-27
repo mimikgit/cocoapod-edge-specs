@@ -39,4 +39,6 @@ These components provide various APIs that help developers with core operations,
   s.dependency 'AppAuth', '~> 1.7.5'
 
   s.platform = 'ios', '16.0'
+
+  s.xcconfig = {'ENABLE_USER_SCRIPT_SANDBOXING' => 'NO',}
 end
