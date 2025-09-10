@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "EdgeCore"
   s.version      = "5.10.0"
-  s.summary      = "mimik SDK for embedding mim OE with APIs for auth, device discovery, microservice management, AI models, and Dev Console."
+  s.summary      = "SDK for embedding mim OE with APIs for auth, device discovery, microservice management, AI models, and Dev Console."
 
   s.description  = <<-DESC
 The mimik Client Library is a unified SDK that lets developers embed and manage mim OE while also providing higher-level services for building hybrid edge–cloud applications. It includes APIs for:
